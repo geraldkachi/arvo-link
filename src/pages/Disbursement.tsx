@@ -15,7 +15,7 @@ const disbursement = () => {
           <span className='whitespace-nowrap'>
             Ayotunde Bally
             {/* && Top Lord Gerald */}
-            </span> &nbsp; &nbsp; &nbsp;
+          </span> &nbsp; &nbsp; &nbsp;
           <ProfileIcon />
         </div>
       </div>
@@ -50,6 +50,81 @@ const disbursement = () => {
             <Card title='Song Title' subtitle='Play Time — 2mins 45sec' rate='Good' />
           ))} */}
         </div>
+
+        <form >
+          <div className='my-10 bg-white shadow-lg py-6 px-4 rounded-2xl'>
+            <div className="mb-6 w-full">
+              <label className="block w-full mb-2 text-sm font-medium text-gray-900 dark:text-white">Amount</label>
+              <input type="text" id="text" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 focus:text-gray-700 focus:bg-white focus:outline-none dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" placeholder="15,000" required />
+            </div>
+
+            <div className="">
+              <div className="mb-3 w-full">
+                <label className="form-label inline-block mb-2 text-gray-700"
+                >Contacts</label>
+                <textarea
+                  className="
+                      form-control
+                      block
+                      w-full
+                      px-3
+                      py-1.5
+                      text-base
+                      font-normal
+                      text-gray-700
+                      bg-white bg-clip-padding
+                      border border-solid border-gray-300
+                      rounded
+                      transition
+                      ease-in-out
+                      m-0
+                      focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
+                          "
+                  placeholder="Type Here"
+                ></textarea>
+              </div>
+
+
+              <div className="mb-3 block">
+                <label className="form-label inline-block mb-2 text-gray-700"
+                >Message</label>
+                <textarea
+                  className="
+                      form-control
+                      block
+                      w-full
+                      px-3
+                      py-1.5
+                      text-base
+                      font-normal
+                      text-gray-700
+                      bg-white bg-clip-padding
+                      border border-solid border-gray-300
+                      rounded
+                      transition
+                      ease-in-out
+                      m-0
+                      focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
+                          "
+                  placeholder="Type the bulk sms here"
+                ></textarea>
+              </div>
+
+            </div>
+
+          </div>
+            <div className="flex items-center justify-between p-4 my-3 rounded-md bg-[#E8E9F2] text-black">
+              <div>
+                <p>Total amount sending</p>
+              </div>
+              <div>
+                <p>₦ 490,000</p>
+              </div>
+          </div>
+
+          <button className='bg-[#A362F8] mt-5 px-10 py-4 text-white'>Disburse</button>
+        </form>
+
       </div>
     </div>
   )

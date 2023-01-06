@@ -29,7 +29,7 @@ const Sidebar = () => {
 
                 <div className={`pt-6 ${'' && " mx-auto"}`}>
                     <div className="flex items-center justify-between pb-10 gap-4">
-                        <div className="text-3xl text-[#668A99]">Arvo link</div>
+                        <div className="text-3xl text-[#668A99] font-bold">Arvo link</div>
                         <MenuIcon onClick={() => setOpen(!open)} className={`cursor-pointer duration-500 ${open && "rotate-[360deg]"}`} />
                     </div>
                     {routeList.map((item, index) => {
@@ -41,7 +41,7 @@ const Sidebar = () => {
                         ]
 
                         return (
-                            <Link to={item.route} key={index} className={`${activeItem && "bg-[#A362F8] rounded-[4px] text-[#fff]"} text-[#716C81] flex items-center rounded-md p-2 cursor-pointer my-4 text-base space-x-3`}>
+                            <Link to={item.route} key={index} className={`${activeItem && "bg-[#A362F8] rounded-[4px] text-[#ffffffff]"} text-[#716C81] flex items-center rounded-md p-2 cursor-pointer my-4 text-base space-x-3`}>
                                 <div key={index}> {iconArr[index]}</div>
 
                                 <span className={` origin-left duration-200`}>
