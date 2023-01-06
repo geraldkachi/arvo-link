@@ -4,7 +4,7 @@ interface HeaderProps {
 }
 const Header = ({title}: HeaderProps) => {
   return (
-      <div className='text-[#141C1F[ text-4xl'>{title}</div>
+      <div className='text-[#141C1F[ text-3xl md:text-4xl'>{title}</div>
   )
 }
 

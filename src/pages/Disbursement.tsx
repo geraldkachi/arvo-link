@@ -11,8 +11,11 @@ const disbursement = () => {
       <div className="flex items-center justify-between">
         <Header title='Bulk Disbursement' />
 
-        <div className='bg-[#F5F3F9] pl-20 pr-3 py-2 flex items-center rounded-lg'>
-          <span>Ayotunde Bally && Top Lord Gerald</span> &nbsp; &nbsp; &nbsp;
+        <div className='bg-[#F5F3F9] pr-3 py-2 flex items-center rounded-lg px-2'>
+          <span className='whitespace-nowrap'>
+            Ayotunde Bally
+            {/* && Top Lord Gerald */}
+            </span> &nbsp; &nbsp; &nbsp;
           <ProfileIcon />
         </div>
       </div>
