@@ -1,0 +1,16 @@
+
+
+.sidebar {
+    height: 100vh;
+    /* min-width: 18vw; */
+    position: fixed;
+    left: 0;
+    top: 0;
+    transition: all 0.3s ease;
+    /* background: #ffffff; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0rem 0 2rem 0;
+  }
