@@ -80,8 +80,7 @@ const disbursement = () => {
                       m-0
                       focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
                           "
-                  placeholder="Type Here"
-                ></textarea>
+                  placeholder="Type Here" style={{height: '150px'}}></textarea>
               </div>
 
 
@@ -107,6 +106,7 @@ const disbursement = () => {
                       focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
                           "
                   placeholder="Type the bulk sms here"
+                  style={{height: '150px'}}
                 ></textarea>
               </div>
 
@@ -122,7 +122,7 @@ const disbursement = () => {
               </div>
           </div>
 
-          <button className='bg-[#A362F8] mt-5 px-10 py-4 text-white'>Disburse</button>
+          <button className='bg-[#A362F8] rounded-md mt-5 px-10 py-4 text-white'>Disburse</button>
         </form>
 
       </div>
