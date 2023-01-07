@@ -19,7 +19,7 @@ const Sidebar = () => {
         //     token: null,
         // });
         // Cookies.remove('@Authenticated')
-        navigate("/");
+        navigate("/dashboard");
 
     }, [])
 
