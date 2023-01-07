@@ -8,7 +8,7 @@ const History = () => {
         <div>
             <Header title='History' />
 
-            <div className="my-10">
+            <div className="mt-10 mb-20">
 
                 <Table
                     // loading={customerData.isLoading}

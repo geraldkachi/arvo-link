@@ -11,8 +11,8 @@ const disbursement = () => {
       <div className="flex items-center justify-between">
         <Header title='Bulk Disbursement' />
 
-        <div className='bg-[#F5F3F9] pr-3 py-2 flex items-center rounded-lg px-2'>
-          <span className='whitespace-nowrap'>
+        <div className='bg-[#F5F3F9] pr-3 py-2 flex items-center rounded-lg px-2 whitespace-nowrap '>
+          <span className='text-sm'>
             Ayotunde Bally
             {/* && Top Lord Gerald */}
           </span> &nbsp; &nbsp; &nbsp;

@@ -239,7 +239,7 @@ export function Table<TRow extends {}>({
                             {/* <Action
                               variant="horizontal"
                               options={props.rowActions(row, rowIndex)}
-                            /> */}
+                            /> */} Action
                           </div>
                         </td>
                       )}
@@ -366,7 +366,7 @@ const Pagination = ({
       <Paginator
         page={page}
         pageSize={pageSize}
-        loading={loading}
+        // loading={loading}
         currentLength={currentLength}
         setPage={(p) => {
           setPage?.(p);

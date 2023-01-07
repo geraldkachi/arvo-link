@@ -7,7 +7,7 @@ interface ITmpPaginator {
   pageSize: number;
   totalRows?: number;
   currentLength: number;
-  loading: boolean;
+  loading?: boolean;
 }
 const LEFT_PAGE = "LEFT";
 const RIGHT_PAGE = "RIGHT";
